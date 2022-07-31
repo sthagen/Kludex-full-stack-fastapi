@@ -1,11 +1,11 @@
-import uvicorn
+import uvicorn  # type: ignore[import]
 from fastapi import FastAPI
 
 app = FastAPI()
 
 
 @app.get("/")
-async def home():
+async def home() -> None:
     ...
 
 

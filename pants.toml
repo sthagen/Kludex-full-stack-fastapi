@@ -13,3 +13,7 @@ backend_packages = [
 [anonymous-telemetry]
 enabled = true
 repo_id = "d25fd17e-00b8-427a-b829-5aab8d448a03"
+
+# https://www.pantsbuild.org/docs/reference-mypy
+[mypy]
+config = "setup.cfg"
